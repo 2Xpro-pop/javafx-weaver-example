@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="715.0" spacing="20.0" styleClass="bg-functions" stylesheets="@../dark.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="71.0" prefWidth="715.0" styleClass="nav-menu-box">
+         <children>
+            <ImageView fitHeight="45.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logo.png" />
+               </image>
+            </ImageView>
+            <StackPane maxWidth="100000.0" minWidth="100.0" prefHeight="71.0" prefWidth="496.0" styleClass="nav-menu-box" stylesheets="@../dark.css" HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" prefHeight="26.0" prefWidth="50.0">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="29.0">
+                     <image>
+                        <Image url="@../Component 1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="190.0" prefWidth="715.0">
+         <children>
+            <Pane prefHeight="190.0" prefWidth="694.0">
+               <children>
+                  <ImageView fitHeight="175.0" fitWidth="707.0" layoutX="-6.0">
+                     <image>
+                        <Image url="@../Component 10 (2).png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="464.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000000">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="319.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000000">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="165.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000000">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="611.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000000">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000000">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <ImageView fitHeight="44.0" fitWidth="200.0">
+         <image>
+            <Image url="@../Frame 42 (1).png" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Pane prefHeight="86.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="81.0" fitWidth="715.0" layoutX="-258.0">
+                     <image>
+                        <Image url="@../Component 10 (3).png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="-243.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 000$">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="-143.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="35 000$">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="-50.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25 000$">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="49.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11 000$">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="151.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 000$">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="269.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9 000$">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="381.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12 000$">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</VBox>

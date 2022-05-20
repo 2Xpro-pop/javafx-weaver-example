@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="728.0" spacing="20.0" styleClass="bg-login" stylesheets="@../dark.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.vojtechruzicka.javafxweaverexample.controllers.SaleManagerController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <ImageView fitHeight="34.0" fitWidth="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo.png" />
+         </image>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </ImageView>
+      <Label styleClass="text" stylesheets="@../dark.css" text="SALE MANAGER MENU">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+
+      <Button mnemonicParsing="false" prefHeight="150.0" prefWidth="406.0" text="EXIT">
+         <styleClass>
+            <String fx:value="text" />
+            <String fx:value="button" />
+         </styleClass>
+      </Button>
+   </children>
+</VBox>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="976.0" prefWidth="837.0" styleClass="bg-functions" stylesheets="@../dark.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="71.0" prefWidth="715.0" styleClass="nav-menu-box">
+         <children>
+            <ImageView fitHeight="45.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../logo.png" />
+               </image>
+            </ImageView>
+            <StackPane maxWidth="100000.0" minWidth="100.0" prefHeight="71.0" prefWidth="496.0" styleClass="nav-menu-box" stylesheets="@../dark.css" HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="29.0">
+                     <image>
+                        <Image url="" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="217.0" prefWidth="698.0" styleClass="spacing-btwn-icon">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="166.0" prefWidth="346.0" styleClass="spacing-btw-component" stylesheets="@../dark.css">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="220.0" styleClass="nav-menu-box" stylesheets="@../dark.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="-4.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LIST OF EMPLOYEES" textAlignment="CENTER" wrappingWidth="229.58474731445312">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <Pane layoutX="-10.0" layoutY="95.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="427.0" prefWidth="282.0" styleClass="nav-menu-box" stylesheets="@../dark.css">
+                           <children>
+                              <TextArea layoutX="-40.0" layoutY="-29.0" prefHeight="476.0" prefWidth="322.0" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <ImageView fitHeight="27.0" fitWidth="326.0">
+                     <image>
+                        <Image url="@../Component 3 (2).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="221.0" styleClass="nav-menu-box" stylesheets="@../dark.css">
+               <children>
+                  <Text fill="WHITE" layoutX="-4.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSTRUCTIONS TO EMPLOYEES" textAlignment="CENTER" wrappingWidth="229.58474731445312">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="-1.0" layoutY="54.0" prefHeight="486.0" prefWidth="282.0" styleClass="nav-menu-box" stylesheets="@../dark.css">
+                     <children>
+                        <TextArea layoutX="-40.0" prefHeight="486.0" prefWidth="322.0" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Pane minHeight="-Infinity" prefHeight="901.0" prefWidth="825.0">
+               <children>
+                  <ImageView fitHeight="81.0" fitWidth="715.0" layoutX="70.0" layoutY="564.0">
+                     <image>
+                        <Image url="@../Component 10 (3).png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="96.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10%">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="192.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30%">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="286.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23%">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="384.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11%">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="490.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7%">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="605.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9%">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="716.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10%">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutX="320.0" layoutY="503.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="36.0" prefWidth="238.0" styleClass="nav-menu-box" stylesheets="@../dark.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="25.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COVERAGE AREAS">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</VBox>

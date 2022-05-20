@@ -9,24 +9,31 @@ import net.rgielen.fxweaver.core.FxWeaver;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import java.io.IOException;
+
 public class JavaFxApplication extends Application {
 
     private ConfigurableApplicationContext applicationContext;
+    private static Scene scene;
+    private static FxWeaver fxWeaver;
 
     @Override
     public void init() {
         String[] args = getParameters().getRaw().toArray(new String[0]);
 
         this.applicationContext = new SpringApplicationBuilder()
-                .sources(SpringBootExampleApplication.class)
+                .sources(RealEstateClient.class)
                 .run(args);
     }
 
     @Override
     public void start(Stage stage) {
-        FxWeaver fxWeaver = applicationContext.getBean(FxWeaver.class);
-        Parent root = fxWeaver.loadView(MyController.class);
-        Scene scene = new Scene(root);
+        fxWeaver = applicationContext.getBean(FxWeaver.class);
+        Parent root = fxWeaver.loadView(LoginController.class);
+        scene = new Scene(root);
+        scene.getStylesheets().addAll(
+                RealEstateClient.class.getResource("dark.css").toExternalForm()
+        );
         stage.setScene(scene);
         stage.show();
     }
@@ -36,5 +43,12 @@ public class JavaFxApplication extends Application {
         this.applicationContext.close();
         Platform.exit();
     }
+
+    static void setRoot(Class<?> c) throws IOException {
+        scene.setRoot(
+                fxWeaver.loadView(c)
+        );
+    }
+
 
 }
