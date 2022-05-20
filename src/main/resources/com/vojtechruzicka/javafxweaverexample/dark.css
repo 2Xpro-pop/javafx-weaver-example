@@ -1,0 +1,130 @@
+.text
+{
+    -fx-text-fill : white;
+    -fx-font-family: "Roboto";
+    -fx-font-color: white;
+
+}
+
+
+
+.bg-login
+{
+    -fx-background-image: url("login-bg.png");
+    -fx-background-repeat: stretch; 
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+.bg-functions
+{
+    -fx-background-image: url("background.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+.button
+{
+    -fx-pref-width : 440px;
+    -fx-pref-height : 38px;
+    -fx-background-color: rgba(116, 116, 116, 0);
+    -fx-border-color: #FFFFFF;
+    -fx-background-radius : 0px;
+    -fx-border-width : 1px;
+    -fx-effect : none;
+    -fx-border-radius: 4px;
+}
+
+.text-field
+{
+    -fx-max-width : 305px;
+    -fx-pref-height : 38px;
+    -fx-background-color: none;
+    -fx-background-radius : 0px;
+    -fx-border-color: #FFFFFF;
+    -fx-background-radius : 0px;
+    -fx-border-width : 1px;
+}
+
+.check-box
+{
+    -fx-max-width : 305px;
+    -fx-border-radius : 0px;
+    -fx-background-radius : 0px;
+}
+
+.check-box .box 
+{
+    -fx-background-color: none;
+    -fx-border-color:white;
+}
+
+.check-box:selected .mark 
+{
+    -fx-background-color: none;
+    -fx-border-color:white;
+}
+
+.horizontal-line-top
+{
+    -fx-max-width : 350px;
+    -fx-border-width : 2px 0px 0px 0px;
+    -fx-border-color: white;
+}
+
+.horizontal-line-bottom
+{
+    -fx-max-width : 410px;
+    -fx-border-width : 2px 0px 0px 0px;
+    -fx-border-color: white;
+}
+
+.newbutton
+{
+    -fx-background-color: rgba(116, 116, 116, 0);
+    -fx-border-color: #FFFFFF;
+    -fx-background-radius : 0px;
+    -fx-border-width : 1px;
+    -fx-effect : none;
+    -fx-border-radius: 4px;
+    -fx-pref-width : 160px;
+}
+
+.newbutton2
+{
+    -fx-background-color: rgba(116, 116, 116, 0);
+    -fx-border-color: #FFFFFF;
+    -fx-background-radius : 0px;
+    -fx-border-width : 1px;
+    -fx-effect : none;
+    -fx-border-radius: 4px;
+    -fx-pref-width : 160px;
+    -fx-pref-height: 24px;
+}
+
+#person
+{
+    -fx-max-height : 38px;
+    -fx-max-width : 305px;
+    -fx-spacing : 10;
+}
+
+.nav-menu-box
+{
+    -fx-padding : 15px;
+    -fx-background-color: rgba(0, 0, 0, 0.68);
+}
+.spacing-btwn-icon
+{
+    -fx-padding: 20 0 0 10;
+    -fx-spacing: 65;
+}
+.spacing-btwn-text
+{
+    -fx-spacing: 75;
+}
+.spacing-btw-component
+{
+    -fx-spacing: 10;
+}
